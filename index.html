@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Cards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🧠 Quiz Cards</h1>
+
+        <div class="controls">
+            <button id="addCardBtn">Add Card</button>
+            <button id="clearCardsBtn">Clear All</button>
+        </div>
+
+        <div id="cardForm" class="card-form hidden">
+            <textarea id="question" placeholder="Enter Question"></textarea>
+            <textarea id="answer" placeholder="Enter Answer"></textarea>
+            <button id="saveCard">Save</button>
+            <button id="cancelCard">Cancel</button>
+        </div>
+
+        <div id="cardsContainer" class="cards"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
